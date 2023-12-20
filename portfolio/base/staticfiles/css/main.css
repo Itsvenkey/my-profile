@@ -1,0 +1,30 @@
+
+
+
+.social{
+    width: 40px;
+    height: 40px;
+}
+
+.orient{
+    margin-top: 40px;
+}
+
+.intro{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* 
+.row1{
+    min-height: 350px;
+    max-height: 350px;
+    
+} */
+
+/* .row2{
+    min-height: 250px;
+    max-height: 250px;
+} */
+p{
+    font-family: 'Georgia',serif;
+}

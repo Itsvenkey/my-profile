@@ -1,1 +1,129 @@
-<h3>helllo</h3>
+{%load static%}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    />
+    <link rel="stylesheet" href="{% static 'css/main.css'%}" />
+  </head>
+  <body>
+    <div class="container orient">
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <div class="card card-body row1 align-content-center">
+            <img
+              src="{%static 'images/mypic (2).jpg'%}"
+              class="rounded-circle"
+              alt="profile pic"
+              style="height: 280px; width: 270px;"
+            
+            />
+          </div>
+        </div>
+        <div class="col-md-9 text-center">
+          <div class="card card-body row1 ">
+            <p class="text-capitalize text intro orient">
+              Hello! I'm Illa Venkateshwara Rao, a tech enthusiast with a strong
+              foundation in Android development using Java. I've also nearly
+              completed Meta Backend course, adding versatility to my skill set.
+              My journey so far has involved diving into the intracacies of
+              mobile app development and exploring the backend technologies that
+              power modern applicaitons. with a passion for crafting seamless
+              and user-friendly experiences, I bring hands-on experience in
+              Android development along with insights into backed systems. My
+              technical toolkit includes proficiency in Java and a solid
+              understing of backend technologies, thanks to my ongoing learning
+              journey. As I continue to evolve in the tech landscape, my goal is
+              to leverage my skills to contribute to innovative projects that
+              make a meaningful impact. Welcome to my portfolio, where you can
+              explore my Android projects and witness my dedication to
+              continuous learning and growth.
+            </p>
+            <ul class="list-unstyled">
+              <li class="list-unstyled d-inline-block">
+                <a href="github"
+                  ><img
+                    class="social"
+                    src="{%static 'images/github black.png'%}"
+                    alt=""
+                /></a>
+              </li>
+              <li class="list-unstyled d-inline-block">
+                <a href="linkedin"
+                  ><img
+                    class="social"
+                    src="{%static 'images/linkedin blue.png'%}"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row orient">
+        <div class="col-md-6">
+          <div class="card card-body row2">
+            <h4 class="text-capitalize">technical skills</h4>
+            <ul class="text-capitalize list-unstyled">
+              <li>programming languages :</li>
+              <ul class="d-inline-block">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PYTHON</li>
+                <li>DJANGO</li>
+              </ul>
+              <ul class="d-inline-block" style="margin-left: 50px">
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>ANDROID DEVELOPMENT</li>
+                <li>SQL</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body row2">
+            <h4 class="text-capitalize">internship</h4>
+            <ul class="list-unstyled">
+              <br />
+              <li>
+                As an Android Developer intern at Amisys Software Developers, I
+                have been actively involved in the development and enhancement
+                of mobile applications, contributing to various aspects of the
+                software development lifecycle.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row orient">
+        <div class="col">
+          <div class="card card-body">
+            <h4 class="text-capitalize">certifications</h4>
+            <ul class="list-unstyled">
+              <li><a href="intro-to-database-certificate" target="_blank">Introduction to Databases for Back-End Development</a></li>
+              <li><a href="contact-list-django-app-certificate" target="_blank">Create a basic contacts list web app using Django</a></li>
+              <li><a href="programming-in-python-certificate" target="_blank">Programming in Python</a></li>
+              <li><a href="intro-to-backend-development-certificate" target="_blank">Introduction to Back-End Development</a></li>
+              <li><a href="django-web-framework-certificate" target="_blank">Django Web Framework</a></li>
+              <li><a href="version-control-certificate" target="_blank">Version Control</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
